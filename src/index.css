@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('image/mbr-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:nth-child(2) {
+  background-color: #f1356d;
+  border-radius: 10px;
+  color: white ;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.content {
+  border-radius: 50px;
+  background-color: #ececec;
+  background-size: cover;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/* blog previews / list */
+.blog-preview {
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+  background-color: rgb(241, 53, 109, 0.9);
+  box-shadow: 1px 3px 5px rgba(255,255,255,0.5);
+  transition: 700ms;
+}
+
+.blog-preview h2 {
+  font-size: 20px ;
+  color: #5435f1;
+  margin-bottom: 8px;
 }
